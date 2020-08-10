@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6083697e9c21358ed5336395c800290b",
+    "content-hash": "1c806ed444fd03668353a0bcabe00959",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2673,6 +2673,50 @@
                 "drupal"
             ],
             "time": "2020-05-29T11:36:27+00:00"
+        },
+        {
+            "name": "drupal/freelancer_zymphonies_theme",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/freelancer_zymphonies_theme.git",
+                "reference": "2.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/freelancer_zymphonies_theme-2.0.1.zip",
+                "reference": "2.0.1",
+                "shasum": "c393ec515e078df5550264a7d6514eba03413969"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.1",
+                    "datestamp": "1594489128",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "zymphonies-team",
+                    "homepage": "https://www.drupal.org/user/2280310"
+                }
+            ],
+            "description": "Designed & Developed by <a href=https://www.zymphonies.com>Zymphonies</a><br/>Contact us for any kind of Drupal services <a href=mailto:info@zymphonies.com>info@zymphonies.com</a>",
+            "homepage": "https://www.drupal.org/project/freelancer_zymphonies_theme",
+            "support": {
+                "source": "https://git.drupalcode.org/project/freelancer_zymphonies_theme"
+            }
         },
         {
             "name": "drush/drush",
